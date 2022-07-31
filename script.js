@@ -37,4 +37,14 @@ var subtotal_veg;
 subtotal_veg = tomatoResult + pepperResult + eggplantResult;
 document.getElementById("subtotal_veg").innerHTML = subtotal_veg;
 
+///////////////CHEEESE////////////////////////////////////////////
+
+event.preventDefault();
+var cheesePrice;
+var cheeseAmount;
+var cheeseResult;
+cheesePrice = document.getElementById("cheesePrice").value;
+cheeseAmount= document.getElementById("cheeseAmount").value;
+cheeseResult = cheesePrice * cheeseAmount;
+document.getElementById("cheeseResult").innerHTML = cheeseResult;
 }
